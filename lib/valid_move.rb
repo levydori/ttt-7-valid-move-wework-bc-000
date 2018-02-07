@@ -10,6 +10,5 @@ end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 
 def position_taken?(board, pos)
-  empty_space = ["", " ", nil]
-  return !empty_space.include?(board[pos])
+  return true
 end
